@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: first-pod
-  namespace: first-namespace
+  name: memory-demo
+  namespace: mem-example
 spec:
   containers:
-  - name: first-demo-ctr
+  - name: memory-demo-ctr
     image: polinux/stress
     resources:
       limits:
